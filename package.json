@@ -1,5 +1,5 @@
 {
-  "name": "paxeer.apex.engine-api",
+  "name": "@paxeer-network/apex-futures-engine-api",
   "version": "0.0.1",
   "description": "The official TypeScript library for the Paxeer Apex Engine API API",
   "author": "Paxeer Apex Engine API <>",

@@ -3,7 +3,7 @@ import {
   buildHeaders,
   type HeadersLike,
   type NullableHeaders,
-} from 'paxeer.apex.engine-api/internal/headers';
+} from '@paxeer-network/apex-futures-engine-api/internal/headers';
 
 function inspectNullableHeaders(headers: NullableHeaders) {
   return `NullableHeaders {${[

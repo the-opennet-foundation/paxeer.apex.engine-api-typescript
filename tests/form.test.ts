@@ -1,5 +1,8 @@
-import { multipartFormRequestOptions, createForm } from 'paxeer.apex.engine-api/internal/uploads';
-import { toFile } from 'paxeer.apex.engine-api/core/uploads';
+import {
+  multipartFormRequestOptions,
+  createForm,
+} from '@paxeer-network/apex-futures-engine-api/internal/uploads';
+import { toFile } from '@paxeer-network/apex-futures-engine-api/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
