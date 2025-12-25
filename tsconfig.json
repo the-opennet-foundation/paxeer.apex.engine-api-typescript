@@ -8,8 +8,8 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "paths": {
-      "paxeer.apex.engine-api/*": ["./src/*"],
-      "paxeer.apex.engine-api": ["./src/index.ts"]
+      "@paxeer-network/apex-futures-engine-api/*": ["./src/*"],
+      "@paxeer-network/apex-futures-engine-api": ["./src/index.ts"]
     },
     "noEmit": true,
 

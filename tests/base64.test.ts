@@ -1,4 +1,4 @@
-import { fromBase64, toBase64 } from 'paxeer.apex.engine-api/internal/utils/base64';
+import { fromBase64, toBase64 } from '@paxeer-network/apex-futures-engine-api/internal/utils/base64';
 
 describe.each(['Buffer', 'atob'])('with %s', (mode) => {
   let originalBuffer: BufferConstructor;

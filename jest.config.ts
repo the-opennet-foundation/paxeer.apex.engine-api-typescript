@@ -7,8 +7,8 @@ const config: JestConfigWithTsJest = {
     '^.+\\.(t|j)sx?$': ['@swc/jest', { sourceMaps: 'inline' }],
   },
   moduleNameMapper: {
-    '^paxeer.apex.engine-api$': '<rootDir>/src/index.ts',
-    '^paxeer.apex.engine-api/(.*)$': '<rootDir>/src/$1',
+    '^@paxeer-network/apex-futures-engine-api$': '<rootDir>/src/index.ts',
+    '^@paxeer-network/apex-futures-engine-api/(.*)$': '<rootDir>/src/$1',
   },
   modulePathIgnorePatterns: [
     '<rootDir>/ecosystem-tests/',
