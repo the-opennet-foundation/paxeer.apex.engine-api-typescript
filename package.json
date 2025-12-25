@@ -1,6 +1,6 @@
 {
   "name": "paxeer.apex.engine-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The official TypeScript library for the Paxeer Apex Engine API API",
   "author": "Paxeer Apex Engine API <>",
   "types": "dist/index.d.ts",
