@@ -1,4 +1,7 @@
-import { createPathTagFunction, encodeURIPath } from 'paxeer.apex.engine-api/internal/utils/path';
+import {
+  createPathTagFunction,
+  encodeURIPath,
+} from '@paxeer-network/apex-futures-engine-api/internal/utils/path';
 import { inspect } from 'node:util';
 import { runInNewContext } from 'node:vm';
 

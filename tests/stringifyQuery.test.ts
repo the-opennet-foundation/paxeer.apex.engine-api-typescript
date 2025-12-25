@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { PaxeerApexEngineAPI } from 'paxeer.apex.engine-api';
+import { PaxeerApexEngineAPI } from '@paxeer-network/apex-futures-engine-api';
 
 const { stringifyQuery } = PaxeerApexEngineAPI.prototype as any;
 

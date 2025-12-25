@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'paxeer.apex.engine-api/core/api-promise';
+import { APIPromise } from '@paxeer-network/apex-futures-engine-api/core/api-promise';
 
 import util from 'node:util';
-import PaxeerApexEngineAPI from 'paxeer.apex.engine-api';
-import { APIUserAbortError } from 'paxeer.apex.engine-api';
+import PaxeerApexEngineAPI from '@paxeer-network/apex-futures-engine-api';
+import { APIUserAbortError } from '@paxeer-network/apex-futures-engine-api';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {

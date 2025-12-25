@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^paxeer.apex.engine-api(/.*)?',
+              regex: '^@paxeer-network/apex-futures-engine-api(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],

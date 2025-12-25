@@ -2,4 +2,4 @@ onlyBuiltDependencies:
   - '@swc/core'
 minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
-  - paxeer.apex.engine-api
+  - '@paxeer-network/apex-futures-engine-api'
