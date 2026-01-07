@@ -112,7 +112,12 @@ describe('resource tv', () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
       client.perp.tv.searchSymbols(
-        { exchange: 'exchange', limit: 0, query: 'query', type: 'type' },
+        {
+          exchange: 'exchange',
+          limit: 0,
+          query: 'query',
+          type: 'type',
+        },
         { path: '/_stainless_unknown_path' },
       ),
     ).rejects.toThrow(PaxeerApexEngineAPI.NotFoundError);
