@@ -8,7 +8,7 @@ const client = new PaxeerApexEngineAPI({
 });
 
 describe('resource perp', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveKlines: only required params', async () => {
     const responsePromise = client.perp.retrieveKlines({ symbol: 'symbol' });
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource perp', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveKlines: required and optional params', async () => {
     const response = await client.perp.retrieveKlines({
       symbol: 'symbol',
@@ -30,7 +30,7 @@ describe('resource perp', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveLeaderboard', async () => {
     const responsePromise = client.perp.retrieveLeaderboard();
     const rawResponse = await responsePromise.asResponse();
@@ -42,7 +42,7 @@ describe('resource perp', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveLeaderboard: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(

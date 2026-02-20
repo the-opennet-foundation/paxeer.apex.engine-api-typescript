@@ -8,7 +8,7 @@ const client = new PaxeerApexEngineAPI({
 });
 
 describe('resource markprices', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveLatest', async () => {
     const responsePromise = client.perp.ws.markprices.retrieveLatest();
     const rawResponse = await responsePromise.asResponse();

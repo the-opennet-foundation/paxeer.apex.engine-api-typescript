@@ -8,7 +8,7 @@ const client = new PaxeerApexEngineAPI({
 });
 
 describe('resource futures', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveLatest', async () => {
     const responsePromise = client.perp.futures.retrieveLatest();
     const rawResponse = await responsePromise.asResponse();

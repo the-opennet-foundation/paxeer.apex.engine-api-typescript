@@ -8,7 +8,7 @@ const client = new PaxeerApexEngineAPI({
 });
 
 describe('resource user', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveHistory', async () => {
     const responsePromise = client.perp.user.retrieveHistory('address');
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource user', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveHistory: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
@@ -32,7 +32,7 @@ describe('resource user', () => {
     ).rejects.toThrow(PaxeerApexEngineAPI.NotFoundError);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrievePositions', async () => {
     const responsePromise = client.perp.user.retrievePositions('address');
     const rawResponse = await responsePromise.asResponse();
@@ -44,7 +44,7 @@ describe('resource user', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveStats', async () => {
     const responsePromise = client.perp.user.retrieveStats('address');
     const rawResponse = await responsePromise.asResponse();
