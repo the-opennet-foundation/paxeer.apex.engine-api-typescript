@@ -60,7 +60,7 @@ $ yarn link @paxeer-network/apex-futures-engine-api
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global @paxeer-network/apex-futures-engine-api
+$ pnpm link --global @paxeer-network/apex-futures-engine-api
 ```
 
 ## Running tests
