@@ -8,7 +8,7 @@ const client = new PaxeerApexEngineAPI({
 });
 
 describe('resource ws', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('getMarketData', async () => {
     const responsePromise = client.ws.getMarketData();
     const rawResponse = await responsePromise.asResponse();

@@ -8,7 +8,7 @@ const client = new PaxeerApexEngineAPI({
 });
 
 describe('resource markets', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveAllAnalytics', async () => {
     const responsePromise = client.perp.markets.retrieveAllAnalytics();
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource markets', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveAnalytics', async () => {
     const responsePromise = client.perp.markets.retrieveAnalytics('address');
     const rawResponse = await responsePromise.asResponse();
@@ -32,7 +32,7 @@ describe('resource markets', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveHottest', async () => {
     const responsePromise = client.perp.markets.retrieveHottest();
     const rawResponse = await responsePromise.asResponse();
@@ -44,7 +44,7 @@ describe('resource markets', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveTopGainers', async () => {
     const responsePromise = client.perp.markets.retrieveTopGainers();
     const rawResponse = await responsePromise.asResponse();
@@ -56,7 +56,7 @@ describe('resource markets', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveTopLosers', async () => {
     const responsePromise = client.perp.markets.retrieveTopLosers();
     const rawResponse = await responsePromise.asResponse();
